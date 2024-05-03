@@ -16,12 +16,12 @@ class BLUEViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     var counter : Int = 0
-    let nocknock : [String] = ["Nock nock.", "Who's there?", "Yo-deh-lay-hee.", "Yo-deh-lay-hee-WHO?"]
+    let nocknock : [String] = ["Knock knock.", "Who's there?", "Yo-deh-lay-hee.", "Yo-deh-lay-hee-WHO?"]
 
     let lobster : [String] = ["What’s the difference between a dirty bus stop and a lobster with breast implants?", "One is a crusty bus station, and the other is a busty crustacean!"]
     var jokeCounter : Int = 0
     
-    let allJokes : [[String]] = [["Nock nock.", "Who's there?", "Yo-deh-lay-hee.", "Yo-deh-lay-hee-WHO!"], ["What’s the difference between a dirty bus stop and a lobster with breast implants?", "One is a crusty bus station, and the other is a busty crustacean!"]]
+
     /*[[]] [0]
     // MARK: - Navigation
 
