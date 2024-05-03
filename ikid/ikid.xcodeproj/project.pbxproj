@@ -13,6 +13,7 @@
 		763599C02BE481B80041BBBF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 763599BF2BE481B80041BBBF /* Base */; };
 		763599C22BE481B90041BBBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 763599C12BE481B90041BBBF /* Assets.xcassets */; };
 		763599C52BE481B90041BBBF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 763599C42BE481B90041BBBF /* Base */; };
+		763599CD2BE48FC00041BBBF /* BLUEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763599CC2BE48FC00041BBBF /* BLUEViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		763599C12BE481B90041BBBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		763599C42BE481B90041BBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		763599C62BE481B90041BBBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763599CC2BE48FC00041BBBF /* BLUEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLUEViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				763599C12BE481B90041BBBF /* Assets.xcassets */,
 				763599C32BE481B90041BBBF /* LaunchScreen.storyboard */,
 				763599C62BE481B90041BBBF /* Info.plist */,
+				763599CC2BE48FC00041BBBF /* BLUEViewController.swift */,
 			);
 			path = ikid;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				763599BD2BE481B80041BBBF /* ViewController.swift in Sources */,
 				763599B92BE481B80041BBBF /* AppDelegate.swift in Sources */,
+				763599CD2BE48FC00041BBBF /* BLUEViewController.swift in Sources */,
 				763599BB2BE481B80041BBBF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +298,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ikid/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iKid;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,6 +326,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ikid/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iKid;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
