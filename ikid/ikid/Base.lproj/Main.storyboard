@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BU1-I5-TWs">
-    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -32,24 +32,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="BLUEViewController" customModule="ikid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTi-As-90V">
-                                <rect key="frame" x="54.666666666666657" y="416" width="321" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="5F6-7C-Moj"/>
-                                    <constraint firstAttribute="width" constant="321" id="zbT-3d-AUt"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dd7-Hj-gAQ">
-                                <rect key="frame" x="354" y="814" width="60" height="35"/>
+                                <rect key="frame" x="781" y="1182" width="140" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="8uN-Wv-Rnr"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="HuF-4H-fIZ"/>
@@ -89,6 +76,45 @@
                                     <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aUX-nf-jig"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTi-As-90V">
+                                <rect key="frame" x="243" y="572" width="538" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5F6-7C-Moj"/>
+                                    <constraint firstAttribute="height" constant="222" id="gTN-dM-fwz"/>
+                                    <constraint firstAttribute="width" constant="538" id="zVz-7b-VxI"/>
+                                    <constraint firstAttribute="width" constant="321" id="zbT-3d-AUt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="zVz-7b-VxI"/>
+                                        <exclude reference="zbT-3d-AUt"/>
+                                        <exclude reference="5F6-7C-Moj"/>
+                                        <exclude reference="gTN-dM-fwz"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="zbT-3d-AUt"/>
+                                        <include reference="5F6-7C-Moj"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="zbT-3d-AUt"/>
+                                        <include reference="5F6-7C-Moj"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                    <mask key="constraints">
+                                        <include reference="zVz-7b-VxI"/>
+                                        <include reference="gTN-dM-fwz"/>
+                                    </mask>
+                                </variation>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
@@ -154,11 +180,11 @@
             <objects>
                 <viewController id="HGp-TG-TyD" customClass="YELLOWViewController" customModule="ikid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="01m-bR-e2x">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsP-qg-fdI">
-                                <rect key="frame" x="354.33333333333331" y="814.66666666666663" width="59.666666666666686" height="34.333333333333371"/>
+                                <rect key="frame" x="781" y="1182" width="140" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="0Je-wz-4EM"/>
                                     <constraint firstAttribute="width" constant="140" id="0lz-wH-HAg"/>
@@ -199,7 +225,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLQ-gS-cr8">
-                                <rect key="frame" x="-86" y="387" width="602" height="158"/>
+                                <rect key="frame" x="211" y="604" width="602" height="158"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="NSu-CC-vp9"/>
                                     <constraint firstAttribute="width" constant="321" id="gYC-dV-dsR"/>
@@ -299,42 +325,11 @@
             <objects>
                 <viewController id="Fsa-Tu-LbR" customClass="PINKViewController" customModule="ikid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KrJ-tU-ipN">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOo-fg-7yY">
-                                <rect key="frame" x="54.666666666666629" y="416" width="321" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="qbT-Up-Uew"/>
-                                    <constraint firstAttribute="width" constant="321" id="vi2-bK-dfQ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="vi2-bK-dfQ"/>
-                                        <exclude reference="qbT-Up-Uew"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="vi2-bK-dfQ"/>
-                                        <include reference="qbT-Up-Uew"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="vi2-bK-dfQ"/>
-                                        <include reference="qbT-Up-Uew"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMy-jC-e2A">
-                                <rect key="frame" x="354" y="814" width="60" height="35"/>
+                                <rect key="frame" x="781" y="1182" width="140" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="31h-jG-6pk"/>
                                     <constraint firstAttribute="width" constant="140" id="SXx-OD-xLb"/>
@@ -375,6 +370,45 @@
                                     <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jyF-wu-S83"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOo-fg-7yY">
+                                <rect key="frame" x="243" y="572" width="538" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="222" id="Otw-Nq-VlF"/>
+                                    <constraint firstAttribute="width" constant="538" id="ToK-dR-yKR"/>
+                                    <constraint firstAttribute="height" constant="100" id="qbT-Up-Uew"/>
+                                    <constraint firstAttribute="width" constant="321" id="vi2-bK-dfQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ToK-dR-yKR"/>
+                                        <exclude reference="vi2-bK-dfQ"/>
+                                        <exclude reference="Otw-Nq-VlF"/>
+                                        <exclude reference="qbT-Up-Uew"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="vi2-bK-dfQ"/>
+                                        <include reference="qbT-Up-Uew"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="vi2-bK-dfQ"/>
+                                        <include reference="qbT-Up-Uew"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                    <mask key="constraints">
+                                        <include reference="ToK-dR-yKR"/>
+                                        <include reference="Otw-Nq-VlF"/>
+                                    </mask>
+                                </variation>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wbh-DI-Odt"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
@@ -432,7 +466,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7zV-xx-bPO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="520" y="736"/>
+            <point key="canvasLocation" x="519.7265625" y="735.72474377745232"/>
         </scene>
     </scenes>
     <resources>
