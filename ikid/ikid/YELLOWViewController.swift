@@ -15,7 +15,7 @@ class YELLOWViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    let nonbin : [String] = ["What does a non-binary samurai do to its enemies?", "They slash Them."]
+    let nonbin : [String] = ["What does a non-binary samurai do to its enemies?", "They / Them."]
     var counter : Int = 0
     /*
     // MARK: - Navigation
