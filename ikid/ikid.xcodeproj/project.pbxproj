@@ -15,6 +15,7 @@
 		763599C52BE481B90041BBBF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 763599C42BE481B90041BBBF /* Base */; };
 		763599CD2BE48FC00041BBBF /* BLUEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763599CC2BE48FC00041BBBF /* BLUEViewController.swift */; };
 		763599CF2BE49AF50041BBBF /* YELLOWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763599CE2BE49AF50041BBBF /* YELLOWViewController.swift */; };
+		763599D12BE49FEB0041BBBF /* PINKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763599D02BE49FEB0041BBBF /* PINKViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		763599C62BE481B90041BBBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		763599CC2BE48FC00041BBBF /* BLUEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLUEViewController.swift; sourceTree = "<group>"; };
 		763599CE2BE49AF50041BBBF /* YELLOWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YELLOWViewController.swift; sourceTree = "<group>"; };
+		763599D02BE49FEB0041BBBF /* PINKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINKViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				763599C62BE481B90041BBBF /* Info.plist */,
 				763599CC2BE48FC00041BBBF /* BLUEViewController.swift */,
 				763599CE2BE49AF50041BBBF /* YELLOWViewController.swift */,
+				763599D02BE49FEB0041BBBF /* PINKViewController.swift */,
 			);
 			path = ikid;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				763599D12BE49FEB0041BBBF /* PINKViewController.swift in Sources */,
 				763599BD2BE481B80041BBBF /* ViewController.swift in Sources */,
 				763599CF2BE49AF50041BBBF /* YELLOWViewController.swift in Sources */,
 				763599B92BE481B80041BBBF /* AppDelegate.swift in Sources */,

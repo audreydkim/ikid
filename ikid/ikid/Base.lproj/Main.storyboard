@@ -117,14 +117,45 @@
         <!--DARK-->
         <scene sceneID="i6c-It-ZjO">
             <objects>
-                <viewController id="Fsa-Tu-LbR" sceneMemberID="viewController">
+                <viewController id="Fsa-Tu-LbR" customClass="PINKViewController" customModule="ikid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KrJ-tU-ipN">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOo-fg-7yY">
+                                <rect key="frame" x="36" y="376" width="321" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="qbT-Up-Uew"/>
+                                    <constraint firstAttribute="width" constant="321" id="vi2-bK-dfQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMy-jC-e2A">
+                                <rect key="frame" x="317" y="734" width="60" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next"/>
+                                <connections>
+                                    <action selector="next:" destination="HGp-TG-TyD" eventType="touchUpInside" id="8lZ-b1-5vg"/>
+                                    <action selector="next:" destination="Fsa-Tu-LbR" eventType="touchUpInside" id="MRs-DE-JvO"/>
+                                    <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jyF-wu-S83"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="wbh-DI-Odt"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <constraints>
+                            <constraint firstItem="OOo-fg-7yY" firstAttribute="centerX" secondItem="KrJ-tU-ipN" secondAttribute="centerX" id="7tq-oN-Lha"/>
+                            <constraint firstItem="wbh-DI-Odt" firstAttribute="trailing" secondItem="cMy-jC-e2A" secondAttribute="trailing" constant="16" id="BiC-rA-rbX"/>
+                            <constraint firstItem="OOo-fg-7yY" firstAttribute="centerY" secondItem="KrJ-tU-ipN" secondAttribute="centerY" id="QCk-5M-z9t"/>
+                            <constraint firstItem="cMy-jC-e2A" firstAttribute="bottom" secondItem="wbh-DI-Odt" secondAttribute="bottom" id="fk3-hA-DOL"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="DARK" id="bqW-QO-NFU"/>
+                    <connections>
+                        <outlet property="joke" destination="OOo-fg-7yY" id="dbD-Xh-r22"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7zV-xx-bPO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
